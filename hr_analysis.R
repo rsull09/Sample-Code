@@ -1,7 +1,7 @@
 # HR Anlaysis
 
 # Read in data
-dat <- read.csv("C:/Users/rmsul/Documents/Ray/HR_comma_sep.csv", stringsAsFactors = T)
+dat <- read.csv("C:/Users/Documents/HR_comma_sep.csv", stringsAsFactors = T)
 
 # Change sales column name to division.
 names(dat)[names(dat) == "sales"] <- "division"
